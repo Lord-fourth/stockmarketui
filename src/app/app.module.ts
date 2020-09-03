@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ExcelfileuploadComponent } from './excelfileupload/excelfileupload.component';
 import { StockpriceComponent } from './stockprice/stockprice.component';
+import { CompareCompanyComponent } from './compare-company/compare-company.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ExcelfileuploadComponent,
-    StockpriceComponent
+    StockpriceComponent,
+    CompareCompanyComponent
   ],
   imports: [
     BrowserModule,
